@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fred's Farm - Fresh Farm-to-Table Experience</title>
+    <link rel="stylesheet" href="fred.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Hero Section -->
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <div class="logo">
+                        <a href="fred.html">
+                            <h1>Fred's Farm</h1>
+                            <p class="tagline">Fresh from our fields to your table</p>
+                        </a>
+                    </div>
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="fred.html" class="active">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle">Resources <i class="fas fa-chevron-down"></i></a>
+                          <div class="dropdown-menu">
+                              <a href="#">32fd23</a>
+                              <a href="#">32rw2</a>
+                              <a href="#">Fefdw</a>
+                          </div>
+                      </li>
+                        <li><a href="#contact" class="cta-button">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-content container">
+            <div class="hero-text">
+                <h1>Fresh Farm-to-Table Experience</h1>
+                <p>Supporting local immigrant farmers and providing culturally preferred vegetables to your community.</p>
+                <div class="hero-buttons">
+                    <button onclick="scrollToSection()" class="btn btn-primary">Learn More</button>
+                    <a href="#newsletter" class="btn btn-secondary">Sign Up for Newsletter</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="scroll">
+        <section class="intro-section">
+          <section class="intro-section">
+            <div class="container">
+              <h2 class="section-title">Have You Met FRED?</h2>
+              <div class="benefits-grid">
+                <div class="benefit-card">
+                  <div class="benefit-icon"><i class="fas fa-seedling"></i></div>
+                  <h3>Culturally Preferred Vegetables</h3>
+                  <p>Access to traditional and culturally significant produce that's hard to find elsewhere.</p>
+                </div>
+                <div class="benefit-card">
+                  <div class="benefit-icon"><i class="fas fa-carrot"></i></div>
+                  <h3>Organic & Fresh</h3>
+                  <p>Farm-to-table produce harvested at peak freshness for maximum flavor and nutrition.</p>
+                </div>
+                <div class="benefit-card">
+                  <div class="benefit-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                  <h3>Support Local Farmers</h3>
+                  <p>Direct support for immigrant farmers in your community, helping them build sustainable businesses.</p>
+                </div>
+                <div class="benefit-card">
+                  <div class="benefit-icon"><i class="fas fa-handshake"></i></div>
+                  <h3>Direct Connection</h3>
+                  <p>Build relationships with the people who grow your food and understand their practices.</p>
+                </div>
+                <div class="benefit-card">
+                  <div class="benefit-icon"><i class="fas fa-dollar-sign"></i></div>
+                  <h3>Lower Costs</h3>
+                  <p>Fresher produce at better prices by eliminating middlemen in the supply chain.</p>
+                </div>
+                <div class="benefit-card">
+                  <div class="benefit-icon"><i class="fas fa-chart-line"></i></div>
+                  <h3>Higher Farmer Profits</h3>
+                  <p>Farmers receive fair compensation for their hard work and expertise.</p>
+                </div>
+              </div>
+              <div class="cta-container">
+                <a href="#" class="btn btn-primary">Download Our App</a>
+              </div>
+            </div>
+          </section>
+
+        <section class="stakeholder-section" id="farmers">
+            <div class="container">
+                <h2 class="section-title">For Farmers</h2>
+                <div class="stakeholder-content">
+                    <div class="stakeholder-image">
+                        <img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Farmers working in field">
+                    </div>
+                    <div class="stakeholder-text">
+                        <h3>Growing Communities, Not Just Crops</h3>
+                        <p>FRED provides immigrant farmers with the resources, connections, and market access they need to build thriving agricultural businesses. Our platform bridges cultural and economic gaps, allowing farmers to grow culturally significant crops while earning fair compensation.</p>
+                        <p>We offer technical assistance, shared equipment access, and a direct connection to consumers who value their unique products and heritage farming knowledge.</p>
+                    </div>
+                </div>
+                
+                <div class="cards-container">
+                    <div class="info-card">
+                        <h4>Major Challenge</h4>
+                        <p>Limited market access and difficulty connecting with consumers who value culturally specific produce.</p>
+                        <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Farming challenge">
+                    </div>
+                    <div class="info-card">
+                        <h4>Our Solution</h4>
+                        <p>Direct marketplace platform connecting farmers with consumers seeking their specific produce varieties.</p>
+                        <img src="https://images.unsplash.com/photo-1589923188900-85dae523342b?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Farming solution">
+                    </div>
+                    <div class="info-card">
+                        <h4>How It Works</h4>
+                        <p>Simple onboarding process, training support, and ongoing assistance to help farmers succeed.</p>
+                        <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="How it works">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stakeholder-section alt-bg" id="consumers">
+            <div class="container">
+                <h2 class="section-title">For Consumers</h2>
+                <div class="stakeholder-content reverse">
+                    <div class="stakeholder-text">
+                        <h3>Access to Authentic, Fresh Produce</h3>
+                        <p>FRED connects you directly with local farmers growing culturally diverse and traditional vegetables that are often unavailable in conventional grocery stores. Experience the authentic flavors of global cuisines with ingredients grown right in your community.</p>
+                        <p>By purchasing through FRED, you support immigrant farmers while enjoying fresher, more nutritious produce at competitive prices. Know exactly where your food comes from and the people who grow it.</p>
+                    </div>
+                    <div class="stakeholder-image">
+                        <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Consumers at farmers market">
+                    </div>
+                </div>
+                
+                <div class="cards-container">
+                    <div class="info-card">
+                        <h4>Major Challenge</h4>
+                        <p>Limited access to authentic, culturally specific produce and disconnection from food sources.</p>
+                        <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Consumer challenge">
+                    </div>
+                    <div class="info-card">
+                        <h4>Our Solution</h4>
+                        <p>Direct access to local farmers growing diverse, culturally significant vegetables and fruits.</p>
+                        <img src="https://images.unsplash.com/photo-1607305387299-a3d9611cd469?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Consumer solution">
+                    </div>
+                    <div class="info-card">
+                        <h4>How It Works</h4>
+                        <p>Browse local offerings, place orders, and pick up fresh produce or have it delivered to your door.</p>
+                        <img src="https://images.unsplash.com/photo-1543083477-4f785aeafaa9?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="How it works">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stakeholder-section" id="investors">
+            <div class="container">
+                <h2 class="section-title">For Investors</h2>
+                <div class="stakeholder-content">
+                    <div class="stakeholder-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Investment growth chart">
+                    </div>
+                    <div class="stakeholder-text">
+                        <h3>Sustainable Growth with Social Impact</h3>
+                        <p>FRED offers a unique investment opportunity at the intersection of agriculture, technology, and social impact. Our platform addresses critical gaps in the food system while creating economic opportunities for underserved communities.</p>
+                        <p>By investing in FRED, you support the development of sustainable agricultural infrastructure, promote food security, and help build more resilient local economies while positioning for strong returns as we scale.</p>
+                    </div>
+                </div>
+                
+                <div class="cards-container">
+                    <div class="info-card">
+                        <h4>Major Challenge</h4>
+                        <p>Finding investments that combine strong financial returns with meaningful social and environmental impact.</p>
+                        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Investment challenge">
+                    </div>
+                    <div class="info-card">
+                        <h4>Our Solution</h4>
+                        <p>A scalable platform that addresses food system inequities while creating economic opportunities.</p>
+                        <img src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Investment solution">
+                    </div>
+                    <div class="info-card">
+                        <h4>How It Works</h4>
+                        <p>Multiple investment tiers available with transparent reporting on both financial and impact metrics.</p>
+                        <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="How it works">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section" id="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2>Stay Connected</h2>
+                    <p>Sign up for our newsletter to receive updates on seasonal produce, farmer stories, and upcoming events.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Fred's Farm</h2>
+                    <p>Connecting farmers and consumers for a better food system.</p>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Farm Road, Greenville, CA 95XXX</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@fredsfarm.org</p>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fred's Farm. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="fred.js"></script>
+</body>
+</html>
