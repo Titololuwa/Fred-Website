@@ -1,6 +1,12 @@
+
 /* Base Styles */
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
 
     /* Dropdown Menu Styles */
     .dropdown {
@@ -108,11 +114,10 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: var(--text-dark);
-    background-color: var(--white);
-    overflow-x: hidden;
+    color: var(--text-color);
+    background-color: #f9f7f4;
   }
 
 .container {
@@ -290,6 +295,7 @@ section {
     background-color: var(--dark-color);
     transition: var(--transition);
 }
+
 
 /* Hero Section */
 .hero-section {
@@ -469,6 +475,7 @@ section {
     color: white;
     text-align: center;
     padding: 80px 0;
+
 }
 
 .newsletter-content {
@@ -723,4 +730,5 @@ footer {
     .footer-content {
         grid-template-columns: 1fr;
     }
+
 }
