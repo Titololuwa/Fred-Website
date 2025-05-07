@@ -279,7 +279,20 @@ section {
 }
 
 .cta-button:after {
-    display: none;
+    display:
+     none;
+}
+a.btn, button.btn {
+    /* all: unset; */
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.75em 1.5em;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1.5;
+    white-space: nowrap;
 }
 
 .menu-toggle {
@@ -300,7 +313,7 @@ section {
 /* Hero Section */
 .hero-section {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/home.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     color: white;
@@ -309,10 +322,15 @@ section {
 
 .hero-content {
     padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .hero-text {
     max-width: 700px;
+    align-items: center;
 }
 
 .hero-text h1 {
@@ -328,6 +346,9 @@ section {
 
 .hero-buttons {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     gap: 20px;
 }
 
@@ -471,7 +492,7 @@ section {
 
 /* Newsletter Section */
 .newsletter-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/footer.avif') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 80px 0;
